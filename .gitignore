@@ -37,4 +37,6 @@ npm-debug.log
 node_modules
 
 .DS_Store
+workspace.xml
+.gitignore
 db
