@@ -1,5 +1,16 @@
 extends ../layouts/default
-
 block content
     .container: .jumbotron
         p Amenities Page
+            if !data.callout
+                h2 Invalid Post.
+            else
+                header
+                    h1= data.callout.title
+                    p There's data here
+                    p= data.callout[0].title
+
+
+
+
+
